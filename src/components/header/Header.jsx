@@ -9,7 +9,7 @@ const Header = () => {
       </div>
       <img
         className="headerImg"
-        src="https://images.pexels.com/photos/1167355/pexels-photo-1167355.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        src="https://images.pexels.com/photos/6433968/pexels-photo-6433968.jpeg"
         alt="Photo by Artur Roman from Pexels"
       />
     </div>
