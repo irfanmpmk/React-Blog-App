@@ -14,17 +14,17 @@ const TopBar = () => {
       <div className="topCenter">
         <ul className="topList">
           <li className="topListItem">
-            <Link className="link" to="/React-Node-Blog-App">
+            <Link className="link" to="/React-Blog-App">
               HOME
             </Link>
           </li>
           <li className="topListItem">
-            <Link className="link" to="/React-Node-Blog-App">
+            <Link className="link" to="/React-Blog-App">
               ABOUT
             </Link>
           </li>
           <li className="topListItem">
-            <Link className="link" to="/React-Node-Blog-App">
+            <Link className="link" to="/React-Blog-App">
               CONTACT
             </Link>
           </li>
@@ -35,7 +35,7 @@ const TopBar = () => {
           </li>
           {user ? (
             <li className="topListItem">
-              <Link className="link" to="/React-Node-Blog-App">
+              <Link className="link" to="/React-Blog-App">
                 LOGOUT
               </Link>
             </li>
