@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className="headerTitles">
-        <span className="headerTitleSm">React & Node</span>
+        <span className="headerTitleSm">Blogger App</span>
         <span className="headerTitleLg">Blog</span>
       </div>
       <img

@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import TopBar from "./components/topbar/TopBar";
 import Home from "./pages/home/Home";
 import Login from "./pages/login/Login";
@@ -13,7 +13,7 @@ function App() {
     <>
       <TopBar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/React-Node-Blog-App" element={<Home />} />
         <Route path="/register" element={user ? <Home /> : <Register />} />
         <Route path="/login" element={user ? <Home /> : <Login />} />
         <Route path="/write" element={<Write />} />

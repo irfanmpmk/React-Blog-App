@@ -1,6 +1,11 @@
 import { Link } from "react-router-dom";
 import "./register.css";
 
+import events from "events";
+var myEmitter = new events.EventEmitter();
+
+console.log(myEmitter);
+
 const Register = () => {
   return (
     <div className="register">
