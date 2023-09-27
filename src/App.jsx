@@ -13,7 +13,7 @@ function App() {
     <>
       <TopBar />
       <Routes>
-        <Route path="/React-Node-Blog-App" element={<Home />} />
+        <Route path="/React-Blog-App" element={<Home />} />
         <Route path="/register" element={user ? <Home /> : <Register />} />
         <Route path="/login" element={user ? <Home /> : <Login />} />
         <Route path="/write" element={<Write />} />
