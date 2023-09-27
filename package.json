@@ -2,7 +2,7 @@
   "name": "react-blog-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://irfanmpmk.github.io/react-blog-app",
+  "homepage": "https://irfanmpmk.github.io/react-blog-app/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
